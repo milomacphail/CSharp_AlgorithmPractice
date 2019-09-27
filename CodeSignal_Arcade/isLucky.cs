@@ -7,8 +7,6 @@ bool isLuckyNumber(int n) {
         nArray.Add(n % 10);
         n /= 10;
     }
-     
-     nArray.Reverse();
     
      bool isLucky = true;
      
