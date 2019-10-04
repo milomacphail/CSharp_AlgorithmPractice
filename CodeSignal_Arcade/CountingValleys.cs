@@ -14,9 +14,6 @@ using System;
 
 class Solution {
 
-    // Complete the countingValleys function below.
-    /*static int countingValleys(int n, string s) {
-    }*/
     static void Main(string[] args) {
 
            int alt = 0;
