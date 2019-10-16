@@ -1,6 +1,7 @@
-int addTwoDigits(int n)
-{
+int AddNDigits(int n) {
+
     List<int> listOfInts = new List<int>();
+    
     while(n > 0)
     {
         listOfInts.Add(n % 10);
@@ -11,4 +12,5 @@ int addTwoDigits(int n)
     listOfInts.ToArray();
     
     return listOfInts.Sum();
+
 }
