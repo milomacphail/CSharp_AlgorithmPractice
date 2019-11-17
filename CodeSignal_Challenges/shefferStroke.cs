@@ -1,10 +1,9 @@
 bool shefferStroke(bool a, bool b) {
     
-    Console.WriteLine(a);
-    Console.WriteLine(b);
-    
-    if (a == b)
+    if (a != false && b != false)
         return false;
     else
         return true;
+    
 }
+
